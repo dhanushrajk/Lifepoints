@@ -153,7 +153,7 @@ function Signup(props) {
                   ]}
                   onPress={() => setgender('male')}>
                   <Text style={styles.flatView6}>
-                    <Icon name="user" size={30} color={Color.borderClr} />
+                    <Icon name="user" size={30} color={Color.TextClr} />
                   </Text>
                 </TouchableOpacity>
                 <Text style={styles.gntxt}>Male</Text>
@@ -168,7 +168,7 @@ function Signup(props) {
                   ]}
                   onPress={() => setgender('female')}>
                   <Text style={styles.flatView6}>
-                    <Icon name="user" size={30} color={Color.borderClr} />
+                    <Icon name="user" size={30} color={Color.TextClr} />
                   </Text>
                 </TouchableOpacity>
                 <Text style={styles.gntxt}>Female</Text>
@@ -183,7 +183,7 @@ function Signup(props) {
                   ]}
                   onPress={() => setgender('others')}>
                   <Text style={styles.flatView6}>
-                    <Icon name="user" size={30} color={Color.borderClr} />
+                    <Icon name="user" size={30} color={Color.TextClr} />
                   </Text>
                 </TouchableOpacity>
                 <Text style={styles.gntxt}>Other</Text>
@@ -207,7 +207,9 @@ function Signup(props) {
                 locations={[0, 0.5, 0.6]}
                 colors={['#5098F2', '#0F68D7']}
                 style={styles.linearGradient}>
-                <TouchableOpacity style={styles.View4}>
+                <TouchableOpacity
+                  style={styles.View4}
+                  onPress={() => props.navigation.navigate('MyTabs')}>
                   <Text style={styles.buttonText}>CREATE ACCOUNT</Text>
                 </TouchableOpacity>
               </LinearGradient>

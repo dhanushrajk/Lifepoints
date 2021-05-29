@@ -117,7 +117,9 @@ function Login(props) {
                 locations={[0, 0.5, 0.6]}
                 colors={['#5098F2', '#0F68D7']}
                 style={styles.linearGradient}>
-                <TouchableOpacity style={styles.View4}>
+                <TouchableOpacity
+                  style={styles.View4}
+                  onPress={() => props.navigation.navigate('MyTabs')}>
                   <Text style={styles.buttonText}>LOG IN</Text>
                 </TouchableOpacity>
               </LinearGradient>
