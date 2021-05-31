@@ -14,7 +14,11 @@ const styles: any = StyleSheet.create({
     height: 70,
     borderRadius: 50,
   },
-
+  Img2: {
+    width: 200,
+    height: 200,
+    // borderRadius: 50,
+  },
   View1: {height: 90, width: '100%', flexDirection: 'row'},
   View2: {
     width: '25%',
@@ -66,6 +70,7 @@ const styles: any = StyleSheet.create({
   },
   View12: {flex: 1, alignItems: 'center', justifyContent: 'center'},
   View13: {color: '#fff', fontSize: 18, fontWeight: 'bold'},
+  View14: {borderWidth: 5, borderColor: '#c4c4c4', borderRadius: 5},
 });
 
 export default styles;

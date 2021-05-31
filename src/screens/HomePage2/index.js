@@ -6,6 +6,7 @@ import LinearGradient from 'react-native-linear-gradient';
 import styles from './style';
 import Color from '../common/color';
 const man = require('../../../assets/man.png');
+const image4 = require('../../../assets/Image4.png');
 
 function HomePage2(props) {
   return (
@@ -41,7 +42,9 @@ function HomePage2(props) {
           </LinearGradient>
         </View>
         <View style={styles.View12}>
-          <Text style={styles.View13}>To do</Text>
+          <View style={styles.View14}>
+            <Image source={image4} style={styles.Img2} />
+          </View>
         </View>
       </View>
     </Container>

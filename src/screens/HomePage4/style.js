@@ -64,8 +64,15 @@ const styles: any = StyleSheet.create({
     fontSize: 18,
     fontWeight: 'bold',
   },
-  View12: {flex: 1, alignItems: 'center', justifyContent: 'center'},
-  View13: {color: '#fff', fontSize: 18, fontWeight: 'bold'},
+  View12: {flex: 1, alignItems: 'center'},
+  View13: {color: '#fff', fontSize: 16},
+  View14: {paddingTop: 10, paddingLeft: 10},
+  item: {
+    marginHorizontal: 5,
+    marginVertical: 5,
+  },
+  item2: {height: 160, width: 160, borderRadius: 10},
+  item3: {height: 150, width: 150, resizeMode: 'contain', borderRadius: 10},
 });
 
 export default styles;

@@ -64,8 +64,51 @@ const styles: any = StyleSheet.create({
     fontSize: 18,
     fontWeight: 'bold',
   },
-  View12: {flex: 1, alignItems: 'center', justifyContent: 'center'},
-  View13: {color: '#fff', fontSize: 18, fontWeight: 'bold'},
+  View12: {flex: 1},
+  item: {
+    paddingHorizontal: 5,
+    marginHorizontal: 10,
+    backgroundColor: Color.PrimaryClr,
+    borderBottomWidth: 2,
+    borderBottomColor: '#181835',
+  },
+  title: {
+    fontSize: 16,
+    color: '#fff',
+  },
+  title1: {
+    fontSize: 12,
+    color: '#fff',
+    paddingTop: 10,
+  },
+  View13: {paddingLeft: 30, width: '55%'},
+  View14: {color: '#fff', fontSize: 16},
+  View15: {flexDirection: 'row', paddingTop: 10, paddingBottom: 30},
+  View16: {width: '45%', flexDirection: 'row'},
+  View17: {paddingHorizontal: 5},
+  View18: {color: '#fff', paddingTop: 2},
+  item2: {
+    paddingVertical: 10,
+    flexDirection: 'row',
+    width: '100%',
+  },
+  item3: {width: '10%', justifyContent: 'center'},
+  item4: {width: '20%'},
+  item6: {
+    width: 60,
+    height: 60,
+    borderRadius: 50,
+  },
+  item5: {width: '50%', paddingRight: 10, paddingLeft: 20},
+  item7: {flexDirection: 'row'},
+  item8: {paddingTop: 10, paddingRight: 5},
+  item9: {width: '20%', justifyContent: 'center'},
+  item10: {
+    color: '#CD28CD',
+    textAlign: 'center',
+    fontSize: 18,
+    fontWeight: 'bold',
+  },
 });
 
 export default styles;
